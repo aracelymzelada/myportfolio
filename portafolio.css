@@ -38,13 +38,6 @@ nav a:hover {
   color: white;
 }
 
-.about-section {
-  display: flex;
-  align-items: center;
-  padding: 3rem 2rem;
-  gap: 2rem;
-}
-
 .profile-img {
   width: 180px;
   height: 180px;
@@ -53,8 +46,17 @@ nav a:hover {
   border: 5px solid var(--gold);
 }
 
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  gap: 2rem;
+}
+
 .about-text {
-  max-width: 600px;
+ max-width: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-heading {
@@ -66,4 +68,35 @@ nav a:hover {
 .about-text h3 {
   margin-top: 0;
   font-size: 1.5rem;
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+
+/*footer design */
+.main-footer {
+  background-color: var(--navy);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.main-footer p {
+  margin: 0;
 }
