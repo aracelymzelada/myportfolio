@@ -100,3 +100,43 @@ nav a:hover {
 .main-footer p {
   margin: 0;
 }
+
+.category-section {
+  padding: 3rem 2rem;
+  background-color: var(--cream);
+}
+
+.category-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.category-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.category-card h3 {
+  margin: 0.5rem 0 0.3rem;
+  color: var(--navy);
+}
