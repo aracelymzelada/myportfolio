@@ -150,6 +150,84 @@ nav a:hover {
   line-height: 1.5;
 }
 
+/*article design */
+.article-section {
+  background-color: var(--cream);
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.article-title {
+  color: var(--navy);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.article-subtitle {
+  color: var(--gold);
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-paragraph {
+  font-size: 1rem;
+  color: #1c1c1c;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.article-list {
+  margin-top: 2rem;
+}
+
+.article-item {
+  margin-bottom: 1.5rem;
+}
+
+.article-highlight {
+  font-weight: bold;
+  color: var(--gold);
+  margin-top: 2rem;
+  font-size: 1.05rem;
+}
+
+/*boton design */
+.article-button-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.article-button {
+  background-color: var(--gold);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.article-button:hover {
+  background-color: var(--navy);
+}
+
+/*image design */
+.article-image-wrapper {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
 
 /*footer design */
 .main-footer {
