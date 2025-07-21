@@ -242,3 +242,55 @@ nav a:hover {
 .main-footer p {
   margin: 0;
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  nav a {
+    margin: 0.5rem 0;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    align-items: center;
+  }
+
+  .category-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-card {
+    width: 90%;
+  }
+
+  .article-section {
+    padding: 2rem 1rem;
+  }
+
+  .article-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-img {
+    width: 140px;
+    height: 140px;
+  }
+}
