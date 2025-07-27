@@ -228,6 +228,48 @@ nav a:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
+/*edition section */
+.editions-section {
+  padding: 4rem 2rem;
+  background-color: var(--cream);
+  text-align: center;
+}
+
+.editions-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.edition-card {
+  background-color: var(--beige);
+  border: 2px solid var(--gold);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.edition-card:hover {
+  transform: scale(1.05);
+}
+
+.edition-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 3px solid var(--gold);
+}
+
+.edition-card p {
+  font-size: 0.95rem;
+  color: #1c1c1c;
+  line-height: 1.5;
+}
 
 /*footer design */
 .main-footer {
@@ -292,5 +334,17 @@ nav a:hover {
   .profile-img {
     width: 140px;
     height: 140px;
+  }
+}
+
+/* ==== Responsive Ediciones Section ==== */
+@media (max-width: 768px) {
+  .editions-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edition-card {
+    width: 90%;
   }
 }
