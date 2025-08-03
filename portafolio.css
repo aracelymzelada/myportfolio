@@ -379,3 +379,54 @@ nav a:hover {
   max-width: 600px;
   border-radius: 8px;
 }
+
+/* ==== Meme Secction ==== */
+.meme-section {
+  padding: 4rem 2rem;
+  background-color: var(--beige);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.meme-title {
+  color: var(--navy);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.meme-description {
+  color: #1c1c1c;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meme-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.meme-card {
+  background-color: var(--cream);
+  border: 2px solid var(--gold);
+  border-radius: 12px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.meme-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  border: 3px solid var(--gold);
+}
+
+.meme-card p {
+  color: #1c1c1c;
+  font-size: 0.95rem;
+}
