@@ -348,3 +348,34 @@ nav a:hover {
     width: 90%;
   }
 }
+
+/* ==== Audio Secction ==== */
+.audio-article {
+  background-color: var(--cream);
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.audio-article h1 {
+  color: var(--navy);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.audio-article p {
+  color: #1c1c1c;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.audio-article audio {
+  display: block;
+  margin: 1.5rem auto 0;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
