@@ -430,3 +430,22 @@ nav a:hover {
   color: #1c1c1c;
   font-size: 0.95rem;
 }
+
+/* ==== Video Section ==== */
+.video-section {
+  padding: 4rem 2rem;
+  background-color: var(--cream);
+  text-align: center;
+}
+
+.video-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.video-wrapper iframe {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
